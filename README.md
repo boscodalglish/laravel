@@ -3,20 +3,22 @@
 Install xampp and start Apache SQLite and Create .env file using .env.example
 
 - cd laravel
-- php artisan migrate
+- composer install
 - npm install
+- php artisan migrate
+- php artisan key:generate
+
+## Start Server
+
+- php artisan serve
 
 
-## Install Bootstrap
+## Optional step to Install Bootstrap // ONLY IF SOME ERROR
 
 - composer require laravel/ui:^2.4
 - php artisan ui bootstrap
 - npm install
 - npm run dev
-
-## Start Server
-
-- php artisan serve
 
 
 
