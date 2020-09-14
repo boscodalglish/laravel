@@ -20,7 +20,7 @@
         </ul>
       </div><br />
     @endif
-      <form method="post" action="{{ route('coronas.update', $Modelsmake->id ) }}">
+      <form method="post" action="{{ route('cars.update', $Modelsmake->id ) }}">
           <div class="form-group">
               @csrf
               @method('PATCH')

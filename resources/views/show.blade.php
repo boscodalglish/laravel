@@ -27,8 +27,8 @@
               <label for="model">Top Speed: {{ $Modelsmake->top_speed }}</label>
           </div>
       </form>
-      <a href="{{ route('coronas.index')}}" class="btn btn-danger">View List</a>
-      <a href="{{ route('coronas.create')}}" class="btn btn-danger">Add Model</a>
+      <a href="{{ route('cars.index')}}" class="btn btn-danger">View List</a>
+      <a href="{{ route('cars.create')}}" class="btn btn-danger">Add Model</a>
   </div>
 </div>
 @endsection

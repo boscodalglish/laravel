@@ -33,10 +33,10 @@
             <td>{{$case->model}}</td>
             <td>{{$case->colour}}</td>
             <td>{{$case->top_speed}}</td>
-            <td><a href="{{ route('coronas.show', $case->id)}}" class="btn btn-primary">View</a></td>
-            <td><a href="{{ route('coronas.edit', $case->id)}}" class="btn btn-primary">Edit</a></td>
+            <td><a href="{{ route('cars.show', $case->id)}}" class="btn btn-primary">View</a></td>
+            <td><a href="{{ route('cars.edit', $case->id)}}" class="btn btn-primary">Edit</a></td>
             <td>
-                <form action="{{ route('coronas.destroy', $case->id)}}" method="post">
+                <form action="{{ route('cars.destroy', $case->id)}}" method="post">
                   @csrf
                   @method('DELETE')
                   <button class="btn btn-danger" type="submit">Delete</button>
@@ -46,6 +46,6 @@
         @endforeach
     </tbody>
   </table>
-  <a href="{{ route('coronas.create')}}" class="btn btn-danger">Add Model</a>
+  <a href="{{ route('cars.create')}}" class="btn btn-danger">Add Model</a>
 <div>
 @endsection

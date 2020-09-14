@@ -20,7 +20,7 @@
         </ul>
       </div><br />
     @endif
-    <form method="post" action="{{ route('coronas.store') }}">
+    <form method="post" action="{{ route('cars.store') }}">
         <div class="form-group">
             @csrf
             <label for="make">Make:</label>
@@ -39,7 +39,7 @@
             <input type="text" class="form-control" name="top_speed"/>
         </div>
         <button type="submit" class="btn btn-primary">Add Data</button>
-        <a href="{{ route('coronas.index')}}" class="btn btn-danger">View List</a>
+        <a href="{{ route('cars.index')}}" class="btn btn-danger">View List</a>
     </form>
   </div>
 </div>

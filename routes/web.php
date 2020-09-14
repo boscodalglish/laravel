@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // });
 
-Route::resource('/', 'CoronaController');
+Route::resource('/', 'CarsController');
 
-Route::resource('coronas', 'CoronaController');
+Route::resource('cars', 'CarsController');
