@@ -5,6 +5,7 @@ Install xampp and start Apache SQLite and Create .env file using .env.example
 - cd laravel
 - composer install
 - npm install
+- touch database/database.sqlite
 - php artisan migrate
 - php artisan key:generate
 
