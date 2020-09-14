@@ -2,7 +2,7 @@
 
 Install xampp and start Apache SQLite and Create .env file using .env.example
 
-- cd laravel7crud
+- cd laravel
 - php artisan migrate
 - npm install
 
