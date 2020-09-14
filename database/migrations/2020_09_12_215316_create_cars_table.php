@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCoronasTable extends Migration
+class CreateCarsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCoronasTable extends Migration
      */
     public function up()
     {
-        Schema::create('coronas', function (Blueprint $table) {
+        Schema::create('cars', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('make');
@@ -30,6 +30,6 @@ class CreateCoronasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('coronas');
+        Schema::dropIfExists('cars');
     }
 }
