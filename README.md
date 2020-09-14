@@ -2,15 +2,21 @@
 
 Install xampp and start Apache SQLite and follow the commands below
 
-#cd laravel7crud
-#npm install
+- cd laravel7crud
+- php artisan migrate
+- npm install
 
 
 ## Install Bootstrap
 
-#composer require laravel/ui:^2.4
-#php artisan ui bootstrap
+- composer require laravel/ui:^2.4
+- php artisan ui bootstrap
+- npm install
+- npm run dev
 
+## Start Server
+
+- php artisan serve
 
 
 
